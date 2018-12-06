@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rent-a-Car", "Rent-a-Car\Rent-a-Car.csproj", "{9F96E807-8886-4807-BAF4-8D7A9AED1BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model-Rent-Car", "Model-Rent-Car\Model-Rent-Car.csproj", "{BD276AEB-1E53-4E60-9FAE-672E8960500C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F96E807-8886-4807-BAF4-8D7A9AED1BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F96E807-8886-4807-BAF4-8D7A9AED1BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F96E807-8886-4807-BAF4-8D7A9AED1BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F96E807-8886-4807-BAF4-8D7A9AED1BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD276AEB-1E53-4E60-9FAE-672E8960500C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD276AEB-1E53-4E60-9FAE-672E8960500C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD276AEB-1E53-4E60-9FAE-672E8960500C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD276AEB-1E53-4E60-9FAE-672E8960500C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFE3E75B-4D85-4402-83E5-4FB4C137863F}
+	EndGlobalSection
+EndGlobal
