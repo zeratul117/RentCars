@@ -11,6 +11,10 @@ namespace Model_Rent_Car.Modelos
     {
         public int IdProceso { get; set; }
         public DateTime FechaRetiro { get; set; }
+        public ProcesoRentado()
+        {
+            FechaRetiro = DateTime.Now;
+        }
         public DateTime FechaEntrega { get; set; }
         public double Monto { get; set; }
         public string Nota { get; set; }

@@ -15,7 +15,10 @@ namespace Model_Rent_Car.Modelos
         public bool SpareTire { get; set; }
         public bool SpareCat { get; set; }
         public DateTime Fecha { get; set; }
- 
+        public Inspeccion()
+        {
+            Fecha = DateTime.Now;
+        }
         public int IdCarro { get; set; }
         public Carro Carros { get; set; }
    
