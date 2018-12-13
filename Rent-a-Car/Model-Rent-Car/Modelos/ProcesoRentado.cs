@@ -14,13 +14,13 @@ namespace Model_Rent_Car.Modelos
         public DateTime FechaEntrega { get; set; }
         public double Monto { get; set; }
         public string Nota { get; set; }
-        [ForeignKey("Carro")]
+ 
         public int IdCarro { get; set; }
         public Carro Carros { get; set; }
-        [ForeignKey("Cliente")]
+
         public int IdCliente { get; set; }
         public Cliente Clientes { get; set; }
-        [ForeignKey("Empleado")]
+  
         public int IdEmpleado { get; set; }
         public Empleado Empleados { get; set; }
     }

@@ -12,7 +12,7 @@ namespace Model_Rent_Car.Modelos
         public int IdModelo { get; set; }
         public string Descripcion { get; set; }
         public bool Estado { get; set; }
-        [ForeignKey("Marca")]
+
         public int Idmarca { get; set; }
         public Marca Marcas { get; set; }
         public List<Carro> Carros { get; set; }

@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis Belis\\source\\repos\\Rent-a-Car\\Rent-a-Car\\Rent-a-Car.csproj",
+      "projectUniqueName": "C:\\Users\\Luis Belis\\source\\repos\\RentCars\\Rent-a-Car\\Rent-a-Car\\Rent-a-Car.csproj",
       "projectName": "Rent-a-Car",
-      "projectPath": "C:\\Users\\Luis Belis\\source\\repos\\Rent-a-Car\\Rent-a-Car\\Rent-a-Car.csproj",
+      "projectPath": "C:\\Users\\Luis Belis\\source\\repos\\RentCars\\Rent-a-Car\\Rent-a-Car\\Rent-a-Car.csproj",
       "packagesPath": "C:\\Users\\Luis Belis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis Belis\\source\\repos\\Rent-a-Car\\Rent-a-Car\\obj\\",
+      "outputPath": "C:\\Users\\Luis Belis\\source\\repos\\RentCars\\Rent-a-Car\\Rent-a-Car\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

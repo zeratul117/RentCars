@@ -16,16 +16,16 @@ namespace Model_Rent_Car.Modelos
         public bool Estado { get; set; }
         public List<ProcesoRentado> ProcesoRentados { get; set; }
         public List<Inspeccion> Inspecciones { get; set; }
-        [ForeignKey("Color")]
+        
         public int IdColor { get; set; }
         public Color Colores { get; set; }
-        [ForeignKey("Tipos")]
+       
         public int IdTipos { get; set; }
         public Tipos Tipos { get; set; }
-        [ForeignKey("Gas")]
+
         public int IdGas { get; set; }
         public Gas Gases { get; set; }
-        [ForeignKey("Modelo")]
+       
         public int IdModelo { get; set; }
         public Modelo Modelos { get; set; }
     }
